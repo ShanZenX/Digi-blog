@@ -21,10 +21,7 @@ export default function Header() {
             <Nav.Link href="#link">Write</Nav.Link>
             <Nav.Link href="#link">Team</Nav.Link>
           </Nav>
-          <Nav.Link
-            href=""
-            className="bg-gray-600 px-2 py-1  rounded text-center"
-          >
+          <Nav.Link href="" className="px-2 py-1  rounded text-center">
             Login
           </Nav.Link>
         </Navbar.Collapse>

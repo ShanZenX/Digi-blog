@@ -8,8 +8,8 @@ import logo from "@/app/images/digi-blog-logo.png";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8">
-      <div className="container mx-auto flex flex-wrap md:justify-between items-center md:h-[80px]  justify-center md:gap-0 gap-5  ">
-        <div className="flex md:w-3/12 items-center justify-center">
+      <div className="container mx-auto flex flex-wrap md:justify-between items-center md:h-[80px] justify-center  md:gap-0">
+        <div className="flex md:w-3/12 items-center justify-center pb-4">
           <Image
             src={logo}
             alt="DIGIBLLOG Logo"
@@ -18,7 +18,7 @@ const Footer = () => {
             height={200}
           ></Image>
         </div>
-        <div className="flex md:w-6/12 items-center justify-center gap-4">
+        <div className="flex md:w-6/12 items-center justify-center gap-4 pb-4">
           <Link href="#home" className="text-white no-underline">
             Home
           </Link>
