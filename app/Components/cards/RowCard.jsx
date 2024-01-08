@@ -3,7 +3,7 @@ import React from "react";
 
 export default function RowCard(props) {
   return (
-    <div className="w-[78%] flex flex-wrap md:h-[316px] mb-20 mt-10 bg-neutral-100 md:p-2">
+    <div className={`${props.w} flex flex-wrap md:h-[316px]  mt-10 mb-10 md:p-2`}>
       <div className="md:w-6/12">
         <Image
           src={props.img}

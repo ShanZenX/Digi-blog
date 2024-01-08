@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Your Title Here",
+      "description": "Your Description Here",
+      "image_url": "Your Image URL Here",
+      "category": "Your Category Here",
+      "date": "Your Date Here",
+      "additional_info": "Your Additional Info Here"
+    },
+    {
+      "id": 2,
+      "title": "Another Title",
+      "description": "Another Description",
+      "image_url": "Another Image URL",
+      "category": "Another Category",
+      "date": "Another Date",
+      "additional_info": "Additional Information"
+    },
+    {
+      "id": 3,
+      "title": "Yet Another Title",
+      "description": "Yet Another Description",
+      "image_url": "Yet Another Image URL",
+      "category": "Yet Another Category",
+      "date": "Yet Another Date",
+      "additional_info": "More Additional Information"
+    }
+  ]
+  

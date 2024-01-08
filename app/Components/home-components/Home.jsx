@@ -15,7 +15,7 @@ const fontRaleway = Raleway({
 });
 export default function Slider() {
   return (
-    <div className="w-10/12 flex flex-wrap mb-2   md:mt-16 ">
+    <div className="w-10/12 flex flex-wrap    md:mt-16  md:mb-20 ">
       <div className="md:w-1/2 md:p-10 pt-16 md:pt-0 md:order-last">
         <Image
           src={homeImg}
@@ -25,7 +25,7 @@ export default function Slider() {
           className="w-full h-auto object-cover"
         ></Image>
       </div>
-      <div className="md:w-1/2 flex  justify-center  md:p-10 flex-col md:h-[90vh] gap-3 ">
+      <div className="md:w-1/2 flex  justify-center  md:p-10 flex-col  gap-3 ">
         <p className={`text-3xl ${fontRaleway.className}`}>Welcome to</p>
         <span className={`md:text-[6vw] text-5xl  ${fontPoppins.className}`}>
           DIGIBLOG

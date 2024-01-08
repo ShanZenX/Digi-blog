@@ -13,7 +13,7 @@ export default function RecentBlogs() {
   };
 
   return (
-    <div className="w-full flex flex-col justify-center items-center mt-16">
+    <div className="w-full flex flex-col justify-center items-center mt-16 mb-16 pb-10 ">
       <Heading title={"Recent Blog's"} />
       <Carousel
         interval={2000}
@@ -25,6 +25,7 @@ export default function RecentBlogs() {
         <Carousel.Item>
           <div className="!flex !justify-center !md:w-full">
             <RowCard
+              w={"w-[78%]"}
               category={"Gaming"}
               img="https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704117689~exp=1704118289~hmac=0a705010ddebae55ffecf9e6e512879446cbec702b9e0b5d09d8f23fad362df7"
               title={"How to activate cheat in gta"}
