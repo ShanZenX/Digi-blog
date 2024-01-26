@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function RowCard(props) {
   return (
-    <div className={`${props.w} flex flex-wrap md:h-[316px]  mt-10 mb-10 md:p-2`}>
+    <Link href={props.href} className={`${props.w} flex flex-wrap md:h-[316px] text-black no-underline mt-10 mb-10 md:p-2`}>
       <div className="md:w-6/12">
         <Image
           src={props.img}
@@ -19,6 +20,6 @@ export default function RowCard(props) {
         <p>{props.des}</p>
         <span className="text-gray-600">{props.date}</span>
       </div>
-    </div>
+    </Link>
   );
 }
