@@ -13,7 +13,6 @@ export default function page() {
   return (
     <div className="w-full flex justify-center my-8 ">
       <div className="md:w-6/12 w-10/12 flex flex-col justify-center">
-        {" "}
         <h1 className=" font-extrabold">
           How to activate cheat in gta 6 in playstation
         </h1>
@@ -43,8 +42,8 @@ export default function page() {
           In Grand Theft Auto VI for PlayStation, players can unlock various cheats to enhance their gaming experience. To activate cheats, players can enter specific button combinations using their PlayStation controller.
           </p>
           <p>
-          Navigate to the game's pause menu, then access the cheat code input section, where you can enter the desired combination. Once correctly inputted, the cheat will be activated, providing players with various advantages such as unlimited ammo, invincibility, or special vehicles. Keep in mind that using cheats may affect your ability to unlock achievements or trophies, so use them wisely and at your own discretion.
-          </p>{" "}
+          Navigate to the game pause menu, then access the cheat code input section, where you can enter the desired combination. Once correctly inputted, the cheat will be activated, providing players with various advantages such as unlimited ammo, invincibility, or special vehicles. Keep in mind that using cheats may affect your ability to unlock achievements or trophies, so use them wisely and at your own discretion.
+          </p>
           <p>
           If GTA 6 has been released and cheat codes are available, you would typically activate them using the game controller on the PlayStation console. Cheat codes can vary widely in their activation methods and effects, and they are usually provided by the game developers or discovered by players over time.
           </p>
@@ -57,8 +56,8 @@ export default function page() {
           In Grand Theft Auto VI for PlayStation, players can unlock various cheats to enhance their gaming experience. To activate cheats, players can enter specific button combinations using their PlayStation controller.
           </p>
           <p>
-          Navigate to the game's pause menu, then access the cheat code input section, where you can enter the desired combination. Once correctly inputted, the cheat will be activated, providing players with various advantages such as unlimited ammo, invincibility, or special vehicles. Keep in mind that using cheats may affect your ability to unlock achievements or trophies, so use them wisely and at your own discretion.
-          </p>{" "}
+          Navigate to the game pause menu, then access the cheat code input section, where you can enter the desired combination. Once correctly inputted, the cheat will be activated, providing players with various advantages such as unlimited ammo, invincibility, or special vehicles. Keep in mind that using cheats may affect your ability to unlock achievements or trophies, so use them wisely and at your own discretion.
+          </p>
           <p>
           If GTA 6 has been released and cheat codes are available, you would typically activate them using the game controller on the PlayStation console. Cheat codes can vary widely in their activation methods and effects, and they are usually provided by the game developers or discovered by players over time.
           </p>
