@@ -1,7 +1,9 @@
 import Slider from "./Components/home-components/Home";
 import MiddleBar from "./Components/home-components/MiddleBar";
+import Question from "./Components/home-components/Question";
 import RecentBlogs from "./Components/home-components/RecentBlogs";
 import TopBlogs from "./Components/home-components/TopBlogs";
+
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
       <TopBlogs />
       <MiddleBar />
       <RecentBlogs />
+      <Question />
     </div>
   );
 }

@@ -13,7 +13,7 @@ export default function page() {
   return (
     <div className="w-full flex justify-center my-8 ">
       <div className="md:w-6/12 w-10/12 flex flex-col justify-center">
-        <h1 className=" font-extrabold">
+        <h1 className=" font-extrabold text-5xl">
           How to activate cheat in gta 6 in playstation
         </h1>
         <div className="my-8 flex">
