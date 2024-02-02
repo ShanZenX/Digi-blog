@@ -15,7 +15,7 @@ const fontRaleway = Raleway({
 
 export default function MiddleBar() {
   return (
-    <div className=" h-[200px] mt-10 mb-10 flex flex-col items-center w-[78%] text-black bg-neutral-100 justify-center">
+    <div className=" h-[200px] -mt-10 mb-20 flex flex-col items-center w-[78%] text-black bg-neutral-100 justify-center">
       <p
         className={`${fontPoppins.className} md:text-3xl text-shadow shadow-white`}
       >

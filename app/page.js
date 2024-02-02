@@ -1,3 +1,4 @@
+import Category from "./Components/home-components/Category";
 import Slider from "./Components/home-components/Home";
 import MiddleBar from "./Components/home-components/MiddleBar";
 import Question from "./Components/home-components/Question";
@@ -10,8 +11,9 @@ export default function Home() {
     <div className="w-full flex flex-col justify-center items-center">
       <Slider />
       <TopBlogs />
-      <MiddleBar />
+      <Category />
       <RecentBlogs />
+      <MiddleBar />
       <Question />
     </div>
   );

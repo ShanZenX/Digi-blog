@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className=" bg-transparent shadow-md">
+    <Navbar expand="lg" className="  backdrop-blur-sm bg-white/40 z-20 shadow-md !sticky top-0">
       <Container>
         <Navbar.Brand href="/">
           <Image src={logo} width={120} height={0} alt="logo"></Image>
