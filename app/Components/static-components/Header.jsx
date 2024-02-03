@@ -22,7 +22,7 @@ export default function Header() {
             <Link href={"/write"} className="no-underline text-black  items-center flex ">Write</Link>
             <Link href={"/team"} className="no-underline text-black  items-center flex ">Team</Link>
           </Nav>
-          <Nav.Link href="" className="px-2 py-1  rounded text-center">
+          <Nav.Link href="/" className="px-2 py-1  rounded text-center">
             Login
           </Nav.Link>
         </Navbar.Collapse>

@@ -2,21 +2,23 @@ import React from "react";
 import RowCard from "../Components/cards/RowCard";
 import Heading from "../Components/Heading";
 import rowData from  "../data/blogContent.json"
+import Blog from "../Components/cards/Blog";
 export default function page() {
   return (<>
 
-    <div className="w-full flex justify-center items-center  md:p-10 p-2 flex-wrap">
-      <div className="flex flex-col w-[78%] items-center pt-10">
-      <Heading title={"Blog's"} />
+    <div className="w-full flex flex-col justify-center items-center  md:p-10 p-5 flex-wrap">
+    <Heading title={"Blog's"} />
+
+      <div className="flex flex-wrap justify-evenly w-full gap-y-20 items-center pt-10">
       {rowData.map(item => (
-        <RowCard
+        <Blog
         href={"blog/blogPage"}
           key={item.id}
-          category={item.category}
           img={item.image_url}
           title={item.title}
           des={item.description}
           date={item.date}
+          to={"blog/blogPage"}
         />
       ))}
       </div>

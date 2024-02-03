@@ -8,16 +8,19 @@ export default function TopBlogs() {
       <Heading title="Top Blog's" />
       <div className="md:w-10/12 flex flex-wrap justify-between p-10 gap-5 md:gap-0">
         <Blog
+          to={"blog/blogPage"}
           title="Sample heading"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam."
           img="https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1480&t=st=1704101631~exp=1704102231~hmac=c9e24da137942da4ff5a42a1aa083f817f348c78e318a081118b4365a48f45e6"
         />
         <Blog
+          to={"blog/blogPage"}
           title="Sample heading"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam."
           img="https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1480&t=st=1704101631~exp=1704102231~hmac=c9e24da137942da4ff5a42a1aa083f817f348c78e318a081118b4365a48f45e6"
         />{" "}
         <Blog
+          to={"blog/blogPage"}
           title="Sample heading"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam."
           img="https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1480&t=st=1704101631~exp=1704102231~hmac=c9e24da137942da4ff5a42a1aa083f817f348c78e318a081118b4365a48f45e6"

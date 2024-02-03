@@ -3,7 +3,7 @@ import Heading from "../Heading";
 import {Raleway} from 'next/font/google';
 
 const fontRaleway = Raleway({
-  weight: "800",
+  weight: "400",
   style: "normal",
   subsets: ["latin"],
 });
@@ -19,16 +19,21 @@ export default function Catagory() {
     { name: "Editing" },
     { name: "Video Grapy" },
     { name: "Productivity" },
+    { name: "Finance" },
+    { name: "Fitness" },
+    { name: "Education" },
+    { name: "Fashion" },
+
   ];
 
   return (
-    <div className="bg-gray-200 h-72 mt-10 w-[78%] flex items-center justify-evenly flex-col">
+    <div className="bg-gray-200 md:h-72 mt-10  !pt-10 text-center w-[78%] flex items-center justify-evenly  flex-col">
       <Heading title={"Blog Category's"} />
-      <div className="gap-2 flex w-10/12 flex-wrap items-center justify-center">
+      <div className="gap-2 flex md:w-8/12 mb-5 mt-3 flex-wrap items-center justify-center">
         {" "}
         {cat.map((category, index) => (
           <span
-            className={`${fontRaleway.className} font-light font-Poppins rounded-lg bg-black text-white text-4xl m-2 p-2 $ `}
+            className={`${fontRaleway.className} font-light text-gray-100 rounded-lg bg-black text-xl m-2 p-2 $ `}
             key={index}
           >
             {category.name}

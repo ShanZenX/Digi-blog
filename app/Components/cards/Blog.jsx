@@ -16,7 +16,8 @@ export default function Blog(props) {
       <div className="mt-4 gap-2 flex flex-col text-white text-center p-2">
         <p className="text-3xl font-Poppins font-semibold">{props.title}</p>
         <p className=" font-Poppins font-light">{props.des}</p>
-        <Link href={"props.to"} className="text-white uppercase text-xs">
+        <p className=" font-Poppins font-light">{props.date}</p>
+        <Link href={props.to} className="text-white uppercase text-xs">
           Read more
         </Link>
       </div>
