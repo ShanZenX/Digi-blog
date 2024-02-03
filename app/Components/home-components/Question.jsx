@@ -11,7 +11,7 @@ export default function Question() {
       <Accordion.Item eventKey="0">
         <Accordion.Header className='font-bold'>How do I create a new blog post on Digiblog?</Accordion.Header>
         <Accordion.Body>
-        Creating a new blog post on Digiblog is easy! Simply log in to your account, navigate to the dashboard, and click on the "New Post" button. From there, you can enter your title, write your content using our intuitive editor, add images, and then hit the publish button when you're ready to share it with the world.
+        Creating a new blog post on Digiblog is easy! Simply log in to your account, navigate to the dashboard, and click on the New Post button. From there, you can enter your title, write your content using our intuitive editor, add images, and then hit the publish button when you're ready to share it with the world.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
@@ -23,7 +23,7 @@ export default function Question() {
       <Accordion.Item eventKey="2">
         <Accordion.Header className='font-bold'>Is Digiblog mobile-friendly?</Accordion.Header>
         <Accordion.Body>
-        Yes, Digiblog is fully optimized for mobile devices, ensuring that your blog looks great and functions smoothly on smartphones and tablets. Whether you're writing a new post, managing comments, or checking your blog's stats, you can do it all from the palm of your hand, no matter where you are.
+        Yes, Digiblog is fully optimized for mobile devices, ensuring that your blog looks great and functions smoothly on smartphones and tablets. Whether you are writing a new post, managing comments, or checking your blog  stats, you can do it all from the palm of your hand, no matter where you are.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
