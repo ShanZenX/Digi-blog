@@ -1,55 +1,200 @@
 [
   {
     "id": 1,
-    "title": "How to activate cheat in gta",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam.",
+    "little_title": "GTA Cheats",
+    "title": "GTA Cheat Activation Guide",
+    "description": "Unlock the secrets of GTA with our comprehensive cheat activation guide. Learn how to activate cheats to unlock special abilities, weapons, and vehicles for an enhanced gaming experience.",
     "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
-    "category": "Your Category Here",
+    "category": "Game",
     "date": "24, Dec by Mohanraj",
-    "additional_info": "Your Additional Info Here"
+    "additional_info": "In this comprehensive guide, you'll discover various cheat codes to unlock special abilities, weapons, and vehicles in GTA. Enhance your gameplay and dominate the streets of Los Santos with these powerful cheats. Whether you're looking for infinite health, unlimited ammo, or unstoppable vehicles, we've got you covered. Dive into the world of GTA cheats and experience the game like never before.",
+    "additional_info_2": "Unlocking cheats in GTA can completely change the gaming experience. With these codes, you can access hidden features, gain invincibility, and even spawn vehicles at will. However, be mindful of overusing cheats as it may affect your gameplay enjoyment. Remember to save your progress frequently and enjoy the game responsibly."
   },
   {
     "id": 2,
-    "title": "How to activate cheat in gta",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam.",
+    "little_title": "Healthy Recipes",
+    "title": "Healthy Recipes Collection",
+    "description": "Embark on a culinary journey with our extensive collection of healthy recipes. From vibrant salads to hearty soups and satisfying mains, discover nutritious dishes that nourish your body.",
     "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
-    "category": "Your Category Here",
-    "date": "24, Dec by Mohanraj",
-    "additional_info": "Your Additional Info Here"
+    "category": "Food",
+    "date": "24, Dec by John",
+    "additional_info": "Explore a treasure trove of nutritious recipes designed to fuel your body and delight your taste buds. With detailed instructions and helpful tips, you'll learn how to prepare delicious meals using wholesome ingredients that promote health and well-being. Say goodbye to bland meals and hello to a healthier you!",
+    "additional_info_2": "Eating healthy doesn't have to be boring. With these recipes, you'll enjoy delicious meals that nourish your body and satisfy your cravings. From smoothie bowls to buddha bowls, there's something for everyone in this collection. Start your journey to a healthier lifestyle today!"
   },
   {
     "id": 3,
-    "title": "How to activate cheat in gta",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam.",
+    "little_title": "Financial Tips",
+    "title": "Personal Finance Strategies",
+    "description": "Take control of your financial future with our expert strategies for personal finance management. Learn how to budget, save, and invest wisely to achieve financial freedom.",
     "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
-    "category": "Your Category Here",
-    "date": "24, Dec by Mohanraj",
-    "additional_info": "Your Additional Info Here"
+    "category": "Finance",
+    "date": "24, Dec by Emily",
+    "additional_info": "Transform your financial future with our personal finance strategies. Whether you're saving for retirement, paying off debt, or planning for a major purchase, our expert advice will guide you every step of the way. From budgeting techniques to investment strategies, you'll learn how to make the most of your money and achieve your financial goals.",
+    "additional_info_2": "Financial freedom is within reach with the right strategies and mindset. Start by setting clear financial goals and creating a plan to achieve them. Automate your savings and investments to make managing your money easier. Remember to stay disciplined and avoid unnecessary expenses. With patience and perseverance, you'll build a secure financial foundation for the future."
   },
   {
     "id": 4,
-    "title": "How to activate cheat in gta",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam.",
+    "little_title": "Fitness Tips",
+    "title": "Effective Fitness Routines",
+    "description": "Achieve your fitness goals with our effective workout routines designed to deliver real results. From strength training to cardio workouts, we've got you covered.",
     "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
-    "category": "Your Category Here",
-    "date": "24, Dec by Mohanraj",
-    "additional_info": "Your Additional Info Here"
-  },{
+    "category": "Fitness",
+    "date": "24, Dec by Michael",
+    "additional_info": "Discover the secrets to achieving your fitness goals with our effective workout routines. Whether you're looking to build muscle, lose weight, or improve your overall health, our expert tips and guidance will help you get there. From beginner to advanced workouts, we'll show you how to stay motivated and see real results.",
+    "additional_info_2": "Consistency is key when it comes to fitness. Find activities you enjoy and make exercise a regular part of your routine. Mix up your workouts to keep things interesting and challenge your body. Remember to listen to your body and rest when needed. With dedication and perseverance, you'll achieve the results you desire."
+  },
+  {
     "id": 5,
-    "title": "How to activate cheat in gta",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam.",
+    "little_title": "Educational Insights",
+    "title": "Innovative Teaching Methods",
+    "description": "Transform your classroom with our innovative teaching methods designed to engage and inspire students. From technology integration to project-based learning ways to enhance learning.",
     "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
-    "category": "Your Category Here",
-    "date": "24, Dec by Mohanraj",
-    "additional_info": "Your Additional Info Here"
-  }
-  ,{
+    "category": "Education",
+    "date": "24, Dec by Sarah",
+    "additional_info": "Inspire your students with our innovative teaching methods. Whether you're a seasoned educator or just starting out, our strategies will help you create dynamic and engaging lessons. From flipped classrooms to gamification, discover new approaches to teaching that foster student success and creativity.",
+    "additional_info_2": "Effective teaching is about more than just delivering content—it's about inspiring curiosity and fostering a love of learning. Be open to trying new techniques and adapting your approach based on your students' needs. Remember to provide constructive feedback and create a supportive learning environment. With dedication and passion, you'll make a positive impact on your students' lives."
+  },
+  {
     "id": 6,
-    "title": "How to activate cheat in gta",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, libero, fugit beatae repudiandae debitis voluptatem nulla unde corrupti aspernatur numquam ad necessitatibus soluta aliquid maiores explicabo magnam similique quisquam.",
+    "little_title": "Tech Trends",
+    "title": "Emerging Technologies",
+    "description": "Stay ahead of the curve with our insights into the latest emerging technologies. From AI and blockchain to AR and VR, explore the innovations shaping the future.",
     "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
-    "category": "Your Category Here",
-    "date": "24, Dec by Mohanraj",
-    "additional_info": "Your Additional Info Here"
+    "category": "Technology",
+    "date": "24, Dec by Alex",
+    "additional_info": "Discover the future with our exploration of emerging technologies. From artificial intelligence to virtual reality, we'll take you on a journey through the latest innovations and their potential impact on society. Whether you're a tech enthusiast or a curious observer, you'll find something fascinating in our exploration of the cutting edge.",
+    "additional_info_2": "The pace of technological innovation is accelerating, and staying informed is more important than ever. Keep an eye on emerging trends and be open to embracing new technologies. Experiment with different tools and platforms to see what works best for you. With curiosity and adaptability, you'll thrive in an ever-changing digital landscape."
+  },
+  {
+    "id": 7,
+    "little_title": "Home Improvement",
+    "title": "DIY Home Renovation",
+    "description": "Transform your space with our DIY home renovation tips and tricks. From painting and decorating to furniture restoration, unleash your creativity and breathe new life into your home.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Home",
+    "date": "24, Dec by Rachel",
+    "additional_info": "Revitalize your living space with our DIY home renovation tips. Whether you're looking to refresh a room or tackle a major project, we'll show you how to achieve professional-looking results on a budget. From simple updates to complete transformations, unleash your creativity and make your home a reflection of your personal style.",
+    "additional_info_2": "Home renovation doesn't have to be daunting. Start with a clear plan and prioritize your projects based on your budget and timeline. Don't be afraid to get your hands dirty and learn new skills along the way. Remember to take breaks and celebrate your progress. With determination and creativity, you'll create a home you love."
+  },
+  {
+    "id": 8,
+    "little_title": "Travel Adventures",
+    "title": "Exotic Destinations",
+    "description": "Embark on an adventure with our guide to exotic destinations around the world. From tropical beaches to ancient ruins, discover the wonders of the world and make memories that last a lifetime.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Travel",
+    "date": "24, Dec by Laura",
+    "additional_info": "Escape the ordinary with our guide to exotic destinations. Whether you're dreaming of a tropical paradise or a cultural adventure, we'll inspire you to explore the world and broaden your horizons. From hidden gems to bucket-list landmarks, discover the beauty and diversity of our planet with our curated travel experiences.",
+    "additional_info_2": "Travel is about more than just seeing new places—it's about experiencing new cultures and creating lasting memories. Be open to new experiences and embrace the unknown. Remember to respect local customs and traditions and leave a positive impact wherever you go. With curiosity and an adventurous spirit, the world is yours to discover."
+  },
+  {
+    "id": 9,
+    "little_title": "Fashion Trends",
+    "title": "Trendy Fashion Styles",
+    "description": "Elevate your style with our guide to trendy fashion styles. From streetwear to haute couture, discover the latest trends and express your unique sense of fashion.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Fashion",
+    "date": "24, Dec by Olivia",
+    "additional_info": "Stay ahead of the fashion curve with our guide to trendy styles. Whether you're a trendsetter or a fashion enthusiast, we'll show you how to incorporate the latest looks into your wardrobe. From statement pieces to classic staples, express your individuality and make a bold fashion statement wherever you go.",
+    "additional_info_2": "Fashion is a form of self-expression, so don't be afraid to experiment and have fun with your style. Mix and match different pieces to create unique and unexpected combinations. Remember to dress for yourself and not for others' approval. With confidence and creativity, you'll turn heads and set trends wherever you go."
+  },
+  {
+    "id": 10,
+    "little_title": "Digital Marketing",
+    "title": "Effective Marketing Strategies",
+    "description": "Transform your business with our effective digital marketing strategies. From social media to SEO, discover the tools and techniques to grow your online presence and reach new customers.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Business",
+    "date": "24, Dec by Daniel",
+    "additional_info": "Maximize your business potential with our digital marketing strategies. Whether you're a small business owner or a marketing professional, we'll show you how to leverage the power of the internet to attract customers and drive sales. From content marketing to email campaigns, discover the tools and techniques to build a strong online presence and grow your business.",
+    "additional_info_2": "Digital marketing is constantly evolving, so it's essential to stay up-to-date with the latest trends and technologies. Experiment with different strategies and channels to see what works best for your business. Remember to measure your results and adjust your approach accordingly. With creativity and persistence, you'll achieve your marketing goals and take your business to new heights."
+  },
+  {
+    "id": 11,
+    "little_title": "Photography Tips",
+    "title": "Mastering Photography",
+    "description": "Unlock the secrets of photography with our expert tips and techniques. From composition to lighting, learn how to capture stunning images and unleash your creativity.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Photography",
+    "date": "24, Dec by Sophia",
+    "additional_info": "Take your photography skills to the next level with our expert tips and techniques. Whether you're a beginner or an experienced photographer, we'll help you hone your craft and capture breathtaking images. From mastering composition to understanding lighting, we'll show you how to create photos that stand out and tell a story.",
+    "additional_info_2": "Photography is an art form, so don't be afraid to experiment and push the boundaries of creativity. Explore different genres and styles to find your unique voice as a photographer. Remember to practice regularly and seek inspiration from other photographers. With dedication and passion, you'll master the art of photography and create images that resonate with others."
+  },
+  {
+    "id": 12,
+    "little_title": "Mindful Practices",
+    "title": "Cultivating Mindfulness",
+    "description": "Embrace mindfulness and cultivate inner peace with our guide to mindfulness practices. From meditation to mindful living, discover the tools to reduce stress and enhance well-being.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Wellness",
+    "date": "24, Dec by Emma",
+    "additional_info": "Find peace in a hectic world with our mindfulness practices. Whether you're new to mindfulness or a seasoned practitioner, we'll guide you on a journey of self-discovery and inner peace. From meditation to mindful eating, learn how to cultivate awareness and live in the present moment.",
+    "additional_info_2": "Mindfulness is a powerful tool for reducing stress and enhancing well-being. Incorporate mindfulness practices into your daily routine to experience greater calm and clarity. Remember to be patient with yourself and approach mindfulness with an open heart and mind. With practice and dedication, you'll find balance and harmony in all areas of your life."
+  },
+  {
+    "id": 13,
+    "little_title": "Parenting Tips",
+    "title": "Positive Parenting Strategies",
+    "description": "Empower yourself as a parent with our positive parenting strategies. From communication to discipline, learn how to build strong relationships and raise happy, confident children.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Parenting",
+    "date": "24, Dec by Lisa",
+    "additional_info": "Empower yourself as a parent with our positive parenting strategies. Whether you're navigating the challenges of toddlerhood or navigating the turbulent waters of adolescence, we'll provide you with the tools and techniques to build strong, healthy relationships with your children. From effective communication to positive discipline, we'll help you create a loving and supportive home environment.",
+    "additional_info_2": "Parenting is a journey filled with ups and downs, but with the right strategies and mindset, you can navigate it with confidence and grace. Remember to prioritize connection and empathy in your interactions with your children. Be patient and consistent in your approach, and remember that mistakes are opportunities for growth. With love and intention, you'll raise happy, confident children who thrive."
+  },
+  {
+    "id": 14,
+    "little_title": "Career Development",
+    "title": "Advancing Your Career",
+    "description": "Take your career to new heights with our expert advice on professional development. From networking to skill-building, discover the strategies to achieve your career goals.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Career",
+    "date": "24, Dec by Ryan",
+    "additional_info": "Take charge of your career with our professional development advice. Whether you're just starting out in your field or looking to advance to the next level, we'll provide you with the tools and resources you need to succeed. From building your personal brand to mastering new skills, we'll help you navigate the competitive job market and achieve your career aspirations.",
+    "additional_info_2": "Career development is a lifelong journey, so don't be afraid to invest in yourself and your future. Set clear goals and create a plan to achieve them. Network with professionals in your field and seek out mentors who can offer guidance and support. Remember to stay adaptable and embrace new opportunities as they arise. With determination and persistence, you'll reach new heights in your career."
+  },
+  {
+    "id": 15,
+    "little_title": "Creative Writing",
+    "title": "Inspiring Writing Prompts",
+    "description": "Ignite your creativity with our inspiring writing prompts. From character development to plot twists, discover the tools to unleash your storytelling potential.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Writing",
+    "date": "24, Dec by Grace",
+    "additional_info": "Unlock your creative potential with our inspiring writing prompts. Whether you're a seasoned writer or just starting out, we'll provide you with the tools and inspiration you need to bring your stories to life. From character development exercises to plot brainstorming sessions, we'll help you overcome writer's block and unleash your imagination.",
+    "additional_info_2": "Writing is a journey of self-discovery, so don't be afraid to explore new ideas and experiment with different styles. Trust your instincts and let your imagination run wild. Remember that every draft is a step closer to your masterpiece, so don't be discouraged by setbacks. With persistence and passion, you'll create stories that captivate and inspire."
+  },
+  {
+    "id": 16,
+    "little_title": "Healthy Living",
+    "title": "Holistic Wellness",
+    "description": "Embrace holistic wellness and transform your life from the inside out. From nutrition to mindfulness, discover the keys to living a balanced and fulfilling life.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Wellness",
+    "date": "24, Dec by Lily",
+    "additional_info": "Nourish your mind, body, and spirit with our holistic wellness tips. Whether you're looking to improve your diet, reduce stress, or cultivate mindfulness, we'll guide you on a journey to optimal health and well-being. From healthy recipes to self-care practices, discover the tools to live your best life.",
+    "additional_info_2": "Wellness is about more than just physical health—it's about nurturing all aspects of your being. Take time to connect with yourself and prioritize self-care in your daily routine. Remember to listen to your body and honor your needs. With mindful living and holistic practices, you'll find balance and fulfillment in every area of your life."
+  },
+  {
+    "id": 17,
+    "little_title": "Green Living",
+    "title": "Sustainable Living",
+    "description": "Join the movement towards sustainable living and make a positive impact on the planet. From eco-friendly tips to green initiatives, discover how small changes can lead to big results.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Environment",
+    "date": "24, Dec by Ethan",
+    "additional_info": "Make a positive impact on the planet with our sustainable living tips. Whether you're passionate about reducing waste, conserving energy, or supporting eco-friendly businesses, we'll show you how to live more sustainably and reduce your carbon footprint. From simple lifestyle changes to community initiatives, join us in creating a greener, healthier future for all.",
+    "additional_info_2": "Sustainable living is about more than just recycling—it's about making conscious choices that benefit both the planet and future generations. Start by examining your daily habits and identifying areas where you can reduce your environmental impact. Get involved in local sustainability efforts and support businesses that prioritize eco-friendly practices. With collective action and commitment, we can create a more sustainable world for all."
+  },
+  {
+    "id": 18,
+    "little_title": "Artistic Inspiration",
+    "title": "Creative Expressions",
+    "description": "Explore the world of creative expression with our inspirational art tips and ideas. From painting and drawing to sculpture and photography, discover the joy of making art.",
+    "image_url": "https://img.freepik.com/free-vector/hand-drawn-collage-design_23-2149543516.jpg?w=1800&t=st=1704784223~exp=1704784823~hmac=f703e399f3b13a60debc8f264f9125db625f752ee9a344e6888b528f51ecc0ab",
+    "category": "Art",
+    "date": "24, Dec by Mia",
+    "additional_info": "Unlock your creative potential with our art tips and inspiration. Whether you're an experienced artist or just starting out, we'll provide you with the tools and encouragement you need to express yourself through art. From finding inspiration to mastering techniques, discover the joy of creating and let your imagination soar.",
+    "additional_info_2": "Art is a journey of self-discovery, so don't be afraid to explore new mediums and experiment with different styles. Trust your instincts and let your creativity guide you. Remember that there are no mistakes in art—only opportunities for growth and learning. With passion and perseverance, you'll create works of art that resonate with others and bring beauty into the world."
   }
 ]

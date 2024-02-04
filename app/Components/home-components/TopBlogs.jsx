@@ -1,6 +1,6 @@
 import React from "react";
 import Blog from "../cards/Blog";
-import Heading from "../Heading";
+import Heading from "../mini-components/Heading";
 
 export default function TopBlogs() {
   return (

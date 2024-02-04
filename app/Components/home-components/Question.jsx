@@ -1,11 +1,11 @@
 "use client";
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
-import Heading from '../Heading';
+import Heading from '../mini-components/Heading';
 
 export default function Question() {
   return (
-    <div className='w-full flex  items-center justify-center flex-col'>
+    <div className='md:w-full flex  items-center justify-center flex-col text-center w-11/12'>
     <Heading title={"Frequently asked question about digiblog"}/>
       <Accordion defaultActiveKey="0" className='w-10/12 mt-10 mb-20'>
       <Accordion.Item eventKey="0">

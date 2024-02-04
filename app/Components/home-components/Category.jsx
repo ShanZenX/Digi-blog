@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "../Heading";
+import Heading from "../mini-components/Heading";
 import {Raleway} from 'next/font/google';
 
 const fontRaleway = Raleway({

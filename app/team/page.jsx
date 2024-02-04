@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../Components/Heading';
+import Heading from '../Components/mini-components/Heading';
 import Image from 'next/image';
 
 const teamData = [

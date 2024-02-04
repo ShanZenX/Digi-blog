@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import RowCard from "../cards/RowCard";
-import Heading from "../Heading";
+import Heading from "../mini-components/Heading";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
