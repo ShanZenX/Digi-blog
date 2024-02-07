@@ -6,7 +6,7 @@ import rowData from "../data/blogContent.json";
 import Blog from "../Components/cards/Blog";
 import FilterButton from "../Components/mini-components/FilterButton";
 
-export default function page() {
+export default function Page() {
   const [blog, setBlog] = useState();
 
   useEffect(() => {
