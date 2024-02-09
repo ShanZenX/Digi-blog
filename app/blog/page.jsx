@@ -31,6 +31,7 @@ export default function Page() {
                   des={item.description}
                   date={item.date}
                   to={"blog/blogPage"}
+                  
                 />
               ))
             ) : (
