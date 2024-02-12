@@ -1,9 +1,10 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Poppins } from "next/font/google";
 
-export default function Blog({props,ReceiveData}) {
+export default function Blog(props) {
 
     const DataSender =()=>{
       ReceiveData(item)

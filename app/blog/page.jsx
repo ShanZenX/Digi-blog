@@ -21,7 +21,7 @@ export default function Page() {
 
           <div className="flex flex-wrap justify-evenly w-full gap-y-20 items-center pt-5">
             <FilterButton data={blog} />
-            {blog.length > 0 ? (
+            {blog.length ? (
               blog.map((item) => (
                 <Blog
                   href={"blog/blogPage"}
