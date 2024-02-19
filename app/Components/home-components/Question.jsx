@@ -7,7 +7,7 @@ export default function Question() {
   return (
     <div className='md:w-full flex  items-center justify-center flex-col text-center w-11/12'>
     <Heading title={"Frequently asked question about digiblog"}/>
-      <Accordion defaultActiveKey="0" className='w-10/12 mt-10 mb-20'>
+      <Accordion defaultActiveKey="0" className='w-[78%] mt-10 mb-20'>
       <Accordion.Item eventKey="0">
         <Accordion.Header className='font-bold'>How do I create a new blog post on Digiblog?</Accordion.Header>
         <Accordion.Body>

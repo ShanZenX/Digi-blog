@@ -12,7 +12,6 @@ export default function Page() {
   useEffect(() => {
     setBlog(rowData);
   }, []);
-
   return (
     <>
       {blog && (
