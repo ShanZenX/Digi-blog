@@ -11,7 +11,7 @@ export default function Blog(props) {
     }
 
   return (
-    <div className="p-[10px] md:w-[340px] w-full  bg-[#212529] shadow-md hover:scale-105 duration-700">
+    <div className="p-[10px] md:w-[340px] w-full  bg-[#212529] shadow-md hover:scale-[102.5%] duration-300">
       <Image
         src={props.img}
         width={300}

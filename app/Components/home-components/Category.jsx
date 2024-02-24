@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../mini-components/Heading";
 import {Raleway} from 'next/font/google';
+import { Button } from "react-bootstrap";
 
 const fontRaleway = Raleway({
   weight: "400",
@@ -29,15 +30,12 @@ export default function Catagory() {
   return (
     <div className="bg-gray-200 md:h-72 mt-10  !pt-10 text-center w-[78%] flex items-center justify-evenly  flex-col">
       <Heading title={"Blog Category's"} />
-      <div className="gap-2 flex md:w-8/12 mb-5 mt-3 flex-wrap items-center justify-center">
+      <div className="gap-2 flex md:w-7/12 mb-5 mt-3 flex-wrap items-center justify-center">
         {" "}
         {cat.map((category, index) => (
-          <span
-            className={`${fontRaleway.className} font-light text-gray-100 rounded-lg bg-black text-xl m-2 p-2 $ `}
-            key={index}
-          >
-            {category.name}
-          </span>
+               <Button variant="dark" className="mb-1 mr-2" key={index} >            {category.name}
+               </Button>
+
         ))}
       </div>
     </div>
