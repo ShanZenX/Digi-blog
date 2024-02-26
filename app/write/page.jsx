@@ -6,21 +6,32 @@ import Form from "react-bootstrap/Form";
 import Heading from "../Components/mini-components/Heading";
 import { Button } from "react-bootstrap";
 import { Raleway } from "next/font/google";
+import { useState } from "react";
 const fontRaleway = Raleway({
   weight: "500",
   style: "normal",
   subsets: ["latin"],
 });
 export default function page() {
+  const [blogData,setBlogData] = useState(
+    [
+      
+    ]
+  )
+
+  const handelSubmit = ()=>{
+console.log("form submitted")
+  }
+
   return (
     <div className={ `flex flex-col items-center justify-center mx-40 my-24 bg-[#212529] text-white ${fontRaleway.className} `}>
-      <div className="pt-10 pb-2">
+      <div className="pt-10 ">
         {" "}
-        <Heading title={"Create a blog "} />
+        <Heading title={"Create a blog"} />
       </div>
 
       <div className="w-full p-10 flex flex-col">
-      <Form className="flex flex-col" >
+      <Form className="flex flex-col" onSubmit={handelSubmit}>
 
         <span className="flex gap-7 mb-3">
           <span className="w-1/2">
@@ -107,8 +118,8 @@ export default function page() {
           />
         </span >
         <span className="self-end ">
-        <Button variant="danger" className="mr-4 mt-4">Cancel</Button>{' '}
-        <Button variant="success" className="mr-4 mt-4">Publish</Button>{' '}
+        <Button variant="danger"  className="mr-4 mt-4">Cancel</Button>{' '}
+        <Button variant="success" type="submit" className="mr-4 mt-4">Publish</Button>{' '}
         </span>
 
         </Form>
