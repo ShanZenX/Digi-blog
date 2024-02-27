@@ -8,10 +8,11 @@ import { Raleway } from "next/font/google";
 import { useState } from "react";
 
 const fontRaleway = Raleway({
-  weight: "500",
+  weight: "600",
   style: "normal",
   subsets: ["latin"],
 });
+
 
 export default function Page() {
   const [blogData, setBlogData] = useState({
@@ -23,6 +24,7 @@ export default function Page() {
     date: "",
     additional_info: "",
     additional_info_2: "",
+    
   });
 
   const handelSubmit = (e) => {
