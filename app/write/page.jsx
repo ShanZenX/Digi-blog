@@ -15,6 +15,10 @@ const fontRaleway = Raleway({
 
 
 export default function Page() {
+
+
+// add form data to firebase 
+
   const [blogData, setBlogData] = useState({
     little_title: "",
     title: "",
@@ -31,7 +35,6 @@ export default function Page() {
     e.preventDefault();
     console.log(blogData);
 
-// localStorage.setItem(blogData)
   };
 
   const handelChange = (e) => {
