@@ -1,11 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Form from "react-bootstrap/Form";
 import Heading from "../Components/mini-components/Heading";
 import { Button } from "react-bootstrap";
 import { Raleway } from "next/font/google";
 import { useState } from "react";
+import {db} from  "../firebase"
+import { collection, addDoc } from "firebase/firestore"; 
 
 const fontRaleway = Raleway({
   weight: "600",
@@ -16,8 +18,9 @@ const fontRaleway = Raleway({
 
 export default function Page() {
 
-
-// add form data to firebase 
+useEffect((()=>{
+// const q = 
+}))
 
   const [blogData, setBlogData] = useState({
     little_title: "",
@@ -31,9 +34,32 @@ export default function Page() {
     
   });
 
-  const handelSubmit = (e) => {
+
+
+// add form data to firebase 
+
+  const handelSubmit = async(e) => {
+
     e.preventDefault();
     console.log(blogData);
+    if(blogData.category !== "" ){
+      await addDoc(collection(db, "blogs"), {
+        little_title: blogData.little_title,
+        title: blogData.title,
+        description: blogData.description,
+        image_url: blogData.image_url,
+        category: blogData.category,
+        date: blogData.date,
+        additional_info: blogData.additional_info,
+        additional_info_2: blogData.additional_info_2,
+      }
+      );
+      alert("Your blog created successfully")
+
+    } else{
+      alert("There is an issue in the website please try again")
+    }
+    
 
   };
 
@@ -59,19 +85,21 @@ export default function Page() {
           <span className="flex gap-7 mb-3">
             <span className="w-1/2">
               {" "}
-              <Form.Label htmlFor="Title">Title</Form.Label>
+              <Form.Label to="Title">Title</Form.Label>
               <Form.Control
                 type="text"
                 value={blogData.title}
                 name="title"
                 onChange={handelChange}
                 placeholder="A day in my life of office"
+
                 className="font-thin border-black focus:!shadow-lg"
+                required
               />
             </span>
             <span className="w-1/2">
               {" "}
-              <Form.Label htmlFor="SmallTitle">Small title</Form.Label>
+              <Form.Label to="SmallTitle">Small title</Form.Label>
               <Form.Control
                 type="text"
                 value={blogData.little_title}
@@ -79,12 +107,13 @@ export default function Page() {
                 onChange={handelChange}
                 placeholder="Daily blog"
                 className="font-thin border-black focus:!shadow-lg"
+                required
+
               />
             </span>
           </span>
-          description
           <span className="mb-3 flex flex-col">
-            <Form.Label htmlFor="description">Description</Form.Label>
+            <Form.Label to="description">Description</Form.Label>
             <Form.Control
           type="text"
               rows={5}
@@ -93,10 +122,12 @@ export default function Page() {
               onChange={handelChange}
               placeholder="Description for your blog"
               className="font-thin border-black focus:!shadow-lg "
+              required
+
             />
           </span>
           <span className="mb-3 flex flex-col">
-            <Form.Label htmlFor="image">Image Url</Form.Label>
+            <Form.Label to="image">Image Url</Form.Label>
             <Form.Control
               type="text"
               value={blogData.image_url}
@@ -104,30 +135,35 @@ export default function Page() {
               onChange={handelChange}
               placeholder="Enter Url for image"
               className="font-thin border-black focus:!shadow-lg "
+              required
+
             />
           </span>
           <span className="md:flex gap-7 mb-3">
             <span className="md:w-1/2">
-              <Form.Label htmlFor="SmallTitle">Select category</Form.Label>
+              <Form.Label to="SmallTitle">Select category</Form.Label>
               <Form.Select
                 value={blogData.category}
                 name="category"
                 onChange={handelChange}
                 aria-label="Default select example"
                 className="font-thin border-black focus:!shadow-lg"
+                required
+
               >
                 <option>Select category</option>
-                <option value="1">Game</option>
-                <option value="2">Education</option>
-                <option value="3">Food</option>
-                <option value="4">Anime</option>
-                <option value="5">Travel</option>
-                <option value="6">Fitness</option>
+                <option value="Game">Game</option>
+                <option value="Tech">Tech</option>
+                <option value="Education">Education</option>
+                <option value="Food">Food</option>
+                <option value="Anime">Anime</option>
+                <option value="Travel">Travel</option>
+                <option value="Fitness">Fitness</option>
               </Form.Select>
             </span>
             <span className="md:w-1/2">
               {" "}
-              <Form.Label htmlFor="SmallTitle">Select date</Form.Label>
+              <Form.Label to="SmallTitle">Select date</Form.Label>
               <Form.Control
                 type="text"
                 value={blogData.date}
@@ -135,11 +171,13 @@ export default function Page() {
                 onChange={handelChange}
                 placeholder="20,dec"
                 className="font-thin border-black focus:!shadow-lg"
+                required
+
               />
             </span>
           </span>
           <span className="mb-3 flex flex-col">
-            <Form.Label htmlFor="description-2">
+            <Form.Label to="description-2">
               Description paragraph 1
             </Form.Label>
             <Form.Control
@@ -151,10 +189,12 @@ export default function Page() {
               onChange={handelChange}
               placeholder="Description for your blog"
               className="font-thin border-black focus:!shadow-lg "
+              required
+
             />
           </span>{" "}
           <span className="mb-3 flex flex-col">
-            <Form.Label htmlFor="description-3">
+            <Form.Label to="description-3">
               Description paragraph 2
             </Form.Label>
             <Form.Control
@@ -166,6 +206,8 @@ export default function Page() {
               onChange={handelChange}
               placeholder="Description for your blog"
               className="font-thin border-black focus:!shadow-lg "
+              required
+
             />
           </span>
           <span className="self-end ">
