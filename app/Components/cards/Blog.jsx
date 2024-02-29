@@ -11,14 +11,12 @@ export default function Blog(props) {
     }
 
   return (
-    <div className="p-[10px] md:w-[340px] w-full  bg-[#212529] shadow-md hover:scale-[102.5%] duration-300">
-      <Image
+    <div className="p-[10px] md:w-[26%] w-full  bg-[#212529] shadow-md hover:scale-[102.5%] duration-300">
+      <img
         src={props.img}
-        width={300}
-        height={200}
         className="object-cover w-full h-[200px]"
         alt={props.title}
-      ></Image>
+      ></img>
       <div className="mt-4 gap-2 flex flex-col text-white text-center p-2">
         <p className="text-3xl font-Poppins font-semibold">{props.title}</p>
         <p className=" font-Poppins font-light">{props.des}</p>

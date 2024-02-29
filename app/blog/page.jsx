@@ -1,17 +1,17 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import RowCard from "../Components/cards/RowCard";
 import Heading from "../Components/mini-components/Heading";
 import rowData from "../data/blogContent.json";
 import Blog from "../Components/cards/Blog";
 import FilterButton from "../Components/mini-components/FilterButton";
+import { BlogContext } from "../context/BlogContext";
 
 export default function Page() {
-  const [blog, setBlog] = useState();
 
-  useEffect(() => {
-    setBlog(rowData);
-  }, []);
+  const blog = useContext(BlogContext)
+
+ 
   return (
     <>
       {blog && (

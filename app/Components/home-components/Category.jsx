@@ -33,7 +33,7 @@ export default function Catagory() {
       <div className="gap-2 flex md:w-7/12 mb-5 mt-3 flex-wrap items-center justify-center">
         {" "}
         {cat.map((category, index) => (
-               <Button variant="dark" className="mb-1 mr-2" key={index} >            {category.name}
+               <Button variant="dark" className="mb-1 mr-2 bg-black" key={index} >            {category.name}
                </Button>
 
         ))}
