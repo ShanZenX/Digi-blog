@@ -15,7 +15,7 @@ export default function Page() {
   return (
     <>
       {blog && (
-        <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap">
+        <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap bg-gray-100">
           <Heading title={"Blog's"} />
 
           <div className="flex flex-wrap justify-evenly w-full gap-y-20 items-center pt-5">
@@ -30,6 +30,8 @@ export default function Page() {
                   des={item.description}
                   date={item.date}
                   to={"blog/blogPage"}
+                  cat={item.category}
+
                   
                 />
               ))
