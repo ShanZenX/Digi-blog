@@ -15,11 +15,11 @@ export default function Page() {
   return (
     <>
       {blog && (
-        <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap bg-gray-100">
+        <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap bg-[#f0f3ff5f]">
           <Heading title={"Blog's"} />
 
-          <div className="flex flex-wrap justify-evenly w-full gap-y-20 items-center pt-5">
-            <FilterButton data={blog} />
+          <div className="flex flex-wrap justify-evenly w-full  items-center pt-3 gap-y-5">
+            <FilterButton data={blog}  />
             {blog.length ? (
               blog.map((item) => (
                 <Blog

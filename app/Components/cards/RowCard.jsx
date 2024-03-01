@@ -4,7 +4,7 @@ import React from "react";
 
 export default function RowCard(props) {
   return (
-    <Link href={props.href} className={`${props.w} bg-black text-white flex flex-wrap md:h-[316px] text-black no-underline mt-10 mb-10 md:p-2`}>
+    <Link href={props.href} className={`${props.w} bg-black text-white flex flex-wrap md:h-[316px] no-underline mt-10 mb-10 md:p-2`}>
       <div className="md:w-6/12">
         <Image
           src={props.img}
