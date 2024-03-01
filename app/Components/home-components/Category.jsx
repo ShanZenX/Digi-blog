@@ -9,7 +9,7 @@ const fontRaleway = Raleway({
   subsets: ["latin"],
 });
 
-export default function Catagory() {
+export default function Category() {
 
 
   const cat = [
@@ -28,7 +28,7 @@ export default function Catagory() {
   ];
 
   return (
-    <div className="bg-gray-200 md:h-72 mt-10  !pt-10 text-center w-[78%] flex items-center justify-evenly  flex-col">
+    <div className="bg-slate-100 md:h-72 mt-10  !pt-10 text-center w-[78%] flex items-center justify-evenly  flex-col">
       <Heading title={"Blog Category's"} />
       <div className="gap-2 flex md:w-7/12 mb-5 mt-3 flex-wrap items-center justify-center">
         {" "}

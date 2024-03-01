@@ -20,12 +20,12 @@ export default function Blog(props) {
         onClick={() => DataSender(item)}
         className="text-black no-underline flex flex-col justify-between h-[450px]"
       >
-        <img src={props.img} className=" rounded-lg h-[220px] w-full object-cover"></img>
+        <Image src={props.img} className=" rounded-lg h-[220px] w-full object-cover" width={2000} height={2000} alt="blog image" priority></Image>
         <div>
-          <p className="mb-0 text-2xl font-bold">{props.title}</p>
-          <p className="mb-0">{blogDescription}</p>
+          <p className="mb-2 text-2xl font-bold">{props.title}</p>
+          <p className="mb-0 font-extralight">{blogDescription}</p>
         </div>
-        <div className="flex w-full">
+        <div className="flex w-full justify-center items-center">
           <div className="w-2/3 flex">
             <Image
               src= "/image.png"
@@ -35,12 +35,12 @@ export default function Blog(props) {
               alt="profile picture"
               priority
             ></Image>
-            <div>
-              <p className="mb-0">User Name</p>
-              <p className="mb-0">{props.date}</p>
+            <div className="ml-4">
+              <p className="  font-medium mb-0">Richard</p>
+              <p className="mb-0 text-sm">{props.date}</p>
             </div>
           </div>
-          <div className="w-1/3 flex justify-end">{props.cat}</div>
+          <div className="w-1/3 flex justify-end items-center"><p className="bg-indigo-100 rounded-md font-medium p-2 mb-0">{props.cat}</p></div>
         </div>
       </Link>
     </div>

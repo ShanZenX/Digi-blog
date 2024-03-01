@@ -19,7 +19,7 @@ export default function Page() {
         <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap bg-[#f0f3ff5f]">
           <Heading title={"Blog's"} />
 
-          <div className="flex flex-wrap justify-between md:w-[95%] w-full  items-center pt-3  pb-0">
+          <div className="flex flex-wrap justify-between md:w-[95%] w-full  items-center   pb-0">
             <FilterButton data={blog}  />
             {blog.length ? (
               blog.map((item) => (
