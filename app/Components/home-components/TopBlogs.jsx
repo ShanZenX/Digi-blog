@@ -6,7 +6,7 @@ export default function TopBlogs() {
   return (
     <div className="flex flex-col w-full justify-center items-center md:mt-0 mt-4">
       <Heading title="Top Blog's" />
-      <div className="md:w-full flex flex-wrap justify-between p-10  md:gap-0">
+      <div className="md:w-[85%] flex flex-wrap justify-between p-10  md:gap-0">
         <Blog
           to={"blog/blogPage"}
           cat="Food"

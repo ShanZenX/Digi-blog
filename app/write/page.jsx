@@ -9,6 +9,9 @@ import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 import Link from "next/link";
+import { Editor } from "react-draft-wysiwyg";
+import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+
 
 const fontRaleway = Raleway({
   weight: "600",
@@ -211,6 +214,7 @@ export default function Page() {
           </div>
         </Form>
       </div>
+      <Editor></Editor>
     </div>
   );
 }

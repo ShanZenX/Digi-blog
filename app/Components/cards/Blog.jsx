@@ -14,13 +14,13 @@ export default function Blog(props) {
   const blogDescription = props.des.length > 175 ? props.des.substr(0,175) + "..." : props.des;
   return (
  
-    <div className="md:w-[30%] sm:w-full h-[480px] bg-white p-3 rounded-lg shadow-md my-10 mx-2 ">
+    <div className="md:w-[30%] sm:w-full h-[480px] bg-white p-3 rounded-2xl shadow-md my-10 mx-2 ">
       <Link
         href={props.to}
         onClick={() => DataSender(item)}
         className="text-black no-underline flex flex-col justify-between h-[450px]"
       >
-        <Image src={props.img} className=" rounded-lg h-[220px] w-full object-cover" width={2000} height={2000} alt="blog image" priority></Image>
+        <Image src={props.img} className=" rounded-2xl h-[220px] w-full object-cover" width={2000} height={2000} alt="blog image" priority></Image>
         <div>
           <p className="mb-2 text-2xl font-bold">{props.title}</p>
           <p className="mb-0 font-extralight">{blogDescription}</p>
