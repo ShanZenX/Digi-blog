@@ -8,8 +8,7 @@ import { Raleway } from "next/font/google";
 import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
-import ReactQuill from "react-quill";
-import "react-quill/dist/quill.snow.css";
+
 
 
 const fontRaleway = Raleway({
@@ -73,7 +72,7 @@ export default function Page() {
       </div>
 
       <div className="w-full p-10 flex flex-col">
-      <ReactQuill theme="snow"  />
+      {/* <ReactQuill theme="snow"  /> */}
 
       </div>
     </div>
