@@ -8,7 +8,8 @@ import { Raleway } from "next/font/google";
 import { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
-
+import JoditEditor from 'jodit-react';
+import  {  useRef, useMemo } from 'react';
 
 
 const fontRaleway = Raleway({
@@ -58,9 +59,10 @@ export default function Page() {
   };
 
   const handelChange = (e) => {
-    
-    console.log(e.target.value);
+    console.log(e)
+    setValue(value)
   };
+
 
   return (
     <div
@@ -72,8 +74,12 @@ export default function Page() {
       </div>
 
       <div className="w-full p-10 flex flex-col">
-      {/* <ReactQuill theme="snow"  /> */}
-
+      <JoditEditor
+			
+			tabIndex={1} // tabIndex of textarea
+			onBlur={newContent => setContent(newContent)} // preferred to use only this option to update the content for performance reasons
+			onChange={newContent => {handelChange(newContent)}}
+		/>
       </div>
     </div>
   );
