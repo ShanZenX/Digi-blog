@@ -12,13 +12,13 @@ const fontRaleway = Raleway({
 });
 
 let DynamicJoditEditor;
+DynamicJoditEditor = dynamic(() => import('jodit-react'), { ssr: false });
 
-try {
-  DynamicJoditEditor = dynamic(() => import('jodit-react'), { ssr: false });
-} catch (error) {
-  console.error('Error while loading JoditEditor:', error);
-  DynamicJoditEditor = () => <div>Error loading editor</div>;
-}
+// try {
+/// } catch (error) {
+//   console.error('Error while loading JoditEditor:', error);
+//   DynamicJoditEditor = () => <div>Error loading editor</div>;
+// }
 
 export default function Page() {
   const [value, setValue] = useState('');
