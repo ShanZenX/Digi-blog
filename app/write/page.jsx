@@ -50,7 +50,7 @@ export default function Page() {
       });
       alert("Your blog created successfully");
     } else {
-      alert("There is an issue in the website please try again");
+      alert("There is an issue in the website please  again");
     }
   };
 
