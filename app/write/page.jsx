@@ -82,7 +82,7 @@ export default function Page() {
         onBlur={(newContent) => setValue(newContent)}
         onChange={(newContent) => handleChange(newContent)}
       />
-      <p>{value}</p>
+      <p>{value.toString()}</p>
     </div>
   );
 }
