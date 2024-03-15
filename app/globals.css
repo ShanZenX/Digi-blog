@@ -3,6 +3,23 @@
 @tailwind utilities;
 
 
-input:focus-visible {
-    outline-offset: 0px;
-}
+.ql-editor {
+    min-height: 200px; 
+
+  }
+
+  .ql-container{
+    border-radius: 0px 0px 5px 5px !important ;
+
+  }
+
+  .ql-snow {
+    border: black 1px solid !important;
+
+  }
+
+  .ql-toolbar{
+    border-bottom: 0px !important;
+        border-radius: 5px 5px 0px 0px  ;
+
+  }
