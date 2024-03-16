@@ -7,7 +7,6 @@ import { MdOutlineCreate } from "react-icons/md";
 import "react-quill/dist/quill.snow.css";
 import { Raleway } from "next/font/google";
 import Link from "next/link";
-import ReactQuill from 'react-quill';
 
 const fontRaleway = Raleway({
   style: "normal",
@@ -48,7 +47,7 @@ export default function Page() {
     }
   };
 
-  // const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
+  const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 
   return (
     <div className={`flex flex-col text-start justify-center md:px-40 md:py-10 items-center flex-wrap text-black ${fontRaleway.className}`}>
