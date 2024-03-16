@@ -1,12 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import dynamic from "next/dynamic"; // Import dynamic from next/dynamic
+import dynamic from "next/dynamic";
 import "@/app/globals.css";
 import { MdOutlineCreate } from "react-icons/md";
 import "react-quill/dist/quill.snow.css";
-import { Poppins, Raleway } from "next/font/google";
+import { Raleway } from "next/font/google";
 import Link from "next/link";
+import ReactQuill from 'react-quill';
 
 const fontRaleway = Raleway({
   style: "normal",
@@ -14,48 +15,44 @@ const fontRaleway = Raleway({
 });
 
 export default function Page() {
-
   const [blogData, setBlogData] = useState({
     title: "",
-
     description: "",
-    
+    category: "",
   });
+
+  const [content , setContent]= useState("")
+  const handleChange = (value) => {
+    setContent(value);
+    console.log(value);
+  };
+  
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setBlogData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(blogData);
+    console.log(content)
     if (blogData.category !== "") {
-      // Your Firestore logic here
+      // Your logic here to save the blog data
       alert("Your blog created successfully");
     } else {
-      alert("There is an issue in the website please try again");
+      alert("Please select a category");
     }
   };
-  const handleChange = (content) => {
-    setBlogData(prevState => ({
-      ...prevState,
-      description: content
-    }));
-    console.log(content)
-  };
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setBlogData(prevState => ({
-      ...prevState,
-      [name]: value
-    }));
-    console.log(name,value)
-
-  };
-  const ReactQuill = dynamic(() => import("react-quill"), { ssr: false }); // Dynamically import React Quill
+  // const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 
   return (
-    <div
-      className={`flex flex-col text-start justify-center md:px-40 md:py-10 items-center flex-wrap text-black ${fontRaleway.className}`}
-    >
-      <Form className="pt-5 w-[75%] p-10">
+    <div className={`flex flex-col text-start justify-center md:px-40 md:py-10 items-center flex-wrap text-black ${fontRaleway.className}`}>
+      <Form className="pt-5 w-[75%] p-10" onSubmit={handleSubmit}>
         <span className="flex flex-row pb-2 gap-2 items-center">
           <p className="text-xl font-bold">Create post</p>
           <MdOutlineCreate fontSize={25} />
@@ -63,34 +60,38 @@ export default function Page() {
         <span className="flex flex-col flex-wrap gap-3 justify-between ">
           <Form.Control
             type="text"
+            name="title"
             placeholder="Name your blog"
-            className="   border-black"
+            className="border-black"
             style={{ boxShadow: "none" }}
             onChange={handleInputChange}
+            value={blogData.title}
           />
           <Form.Select
+            name="category"
             aria-label="Default select example"
             className="border-black text-gray-600"
             style={{ boxShadow: "none" }}
+            onChange={handleInputChange}
+            value={blogData.category}
           >
-            <option>Category</option>
+            <option value="">Category</option>
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>
           </Form.Select>
-          <ReactQuill
-            value={blogData.description}
-            onChange={handleChange}
-            className="w-full "
-          />
+          <ReactQuill theme="snow" value={content} onChange={handleChange} />
+
         </span>
-        <span className=" flex justify-between mt-3">
-          <Button variant="danger bg-red-700"><Link href="/blog">Cancel</Link></Button>
-          <Button variant="success bg-green-800">Post</Button>
+        <span className="flex justify-between mt-3">
+          <Button variant="danger bg-red-700">
+            <Link href="/blog">Cancel</Link>
+          </Button>
+          <Button variant="success bg-green-800" type="submit">Post</Button>
         </span>
       </Form>
-
-      <p>{blogData.description}</p>
+   
+      <p>{blogData.title}</p>
     </div>
   );
 }
