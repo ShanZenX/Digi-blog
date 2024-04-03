@@ -6,10 +6,8 @@ import Link from "next/link";
 import ReactQuill from 'react-quill'; // Import ReactQuill directly
 import 'react-quill/dist/quill.snow.css';
 
-// Importing the global CSS file
 import "@/app/globals.css";
 
-// Importing Google Fonts
 import { Raleway } from "next/font/google";
 
 const fontRaleway = Raleway({
