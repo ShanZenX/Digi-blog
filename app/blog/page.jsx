@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <Suspense fallback={<Loading/>} >
       {blog && (
-        <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap bg-[#f0f3ff5f]">
+        <div className="w-full flex flex-col justify-center items-center md:p-10 p-5 flex-wrap bg-[#d1ddf53b]">
           <Heading title={"Blog's"} />
 
           <div className="flex flex-wrap justify-between md:w-[95%] w-full  items-center   pb-0">
