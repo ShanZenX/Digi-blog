@@ -1,29 +1,22 @@
 // Layout.js
 "use client"
 import React, { useEffect, useState } from 'react'
-import { db } from "../firebase"
-import { collection, getDocs } from 'firebase/firestore'
 import { BlogContext } from '../context/BlogContext'
+import axios from 'axios'
 
-async function fetchDataFromFirebase() {
-  const querySnapshot = await getDocs(collection(db, "blogs"))
-  const data = [];
-  querySnapshot.forEach((doc) => {
-    data.push({ id: doc.id, ...doc.data() })
-  })
-  return data;
-}
+
 
 export default function Layout({ children }) {
+  useEffect(() => {
+    axios.get("http://localhost:3004/blogData")
+    .then(res => (setBlogData(res)))
+    .catch((err)=>(console.log(err)))
+      console.log(blogData)
+  },[])
+  
   const [blogData, setBlogData] = useState()
 
-  useEffect(() => {
-    async function fetchData() {
-      const data = await fetchDataFromFirebase()
-      setBlogData(data)
-    }
-    fetchData()
-  }, [])
+
 
   return (
     <BlogContext.Provider value={blogData}>

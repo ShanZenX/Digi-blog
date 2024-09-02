@@ -42,7 +42,6 @@ export default function Page() {
     console.log(blogData);
     console.log(content);
     if (blogData.category !== "") {
-      // Your logic here to save the blog data
       alert("Your blog created successfully");
     } else {
       alert("Please select a category");

@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 
 export default function FilterButton({ data }) {
+  console.log(data)
   return (
     <div className="flex items-center flex-wrap justify-center w-full pb-2">
       

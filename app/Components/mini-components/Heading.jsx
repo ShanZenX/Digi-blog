@@ -9,7 +9,7 @@ const fontRaleway = Raleway({
 
 export default function Heading(props) {
   return (
-    <p className={`${fontRaleway.className} text-4xl font-extrabold`}>
+    <p className={` text-4xl font-extrabold`}>
       {props.title}
     </p>
   );
